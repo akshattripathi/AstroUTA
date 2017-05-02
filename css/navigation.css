@@ -1,0 +1,257 @@
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+	font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,68,124,1.00) 36.27%,rgba(0,0,0,1.00) 97.41%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,68,124,1.00) 36.27%,rgba(0,0,0,1.00) 97.41%);
+	background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,68,124,1.00) 36.27%,rgba(0,0,0,1.00) 97.41%);
+	background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(0,68,124,1.00) 36.27%,rgba(0,0,0,1.00) 97.41%);
+	background-repeat: repeat-x;
+	background-color: #000000;
+	font-style: normal;
+	font-weight: 400;
+	height: 100%;
+}
+
+#banner {
+	height: 101%;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	float: none;
+	background-color: #fff;
+}
+
+#main-banner {
+    background-color: #fff;
+    height: 95%;
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+
+#physics-logo {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+#uta-compact-logo {
+	width: 95px;
+	height: 95px;
+	padding-top: 5px;
+	float: right;
+	display: none;
+}
+
+#uta-logo {
+	float: right;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+#top-nav-div {
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
+	float: none;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f58025;
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    -o-transition: 0.8s;
+  	-ms-transition: 0.8s;
+  	-moz-transition: 0.8s;
+  	-webkit-transition: 0.8s;
+  	transition: 0.8s;
+}
+
+ul.topnav li a:hover:not(.active) {
+	background-color: #fac194;
+	color: #000;
+}
+
+ul.topnav li a.active {
+	background-color: #fac194;
+	color: #000;
+}
+
+@media screen and (max-width: 1000px) {
+	#main-banner {
+		width: 860px;
+		height: 80px;
+	}
+
+	#physics-logo {
+		height: 50px;
+	}
+
+	#uta-logo {
+		height: 50px;		
+	}
+
+	#top-nav-div {
+		width: 860px;
+	}
+
+	#top-nav-div, ul.topnav {
+		height: 40px;
+	}
+
+	ul.topnav li {
+		font-size: 13px;
+	}
+
+	ul.topnav li a {
+		padding: 12px 14px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#main-banner {
+		height: 60px;
+		width: 760px;
+	}
+
+	#physics-logo {
+		padding-top: 10px;
+		height: 40px;
+	}
+
+	#uta-logo {
+		padding-top: 10px;
+		height: 40px;
+	}
+
+	#top-nav-div {
+		width: 760px;
+	}
+
+	#top-nav-div, ul.topnav {
+		height: 34px;
+	}
+
+	ul.topnav li {
+		font-size: 11px;
+	}
+
+	ul.topnav li a {
+		padding: 10px 12px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#main-banner {
+		height: 40px;
+		width: 610px;
+	}
+
+	#physics-logo {
+		padding-top: 3px;
+		height: 30px;
+	}
+
+	#uta-logo {
+		padding-top: 3px;
+		height: 30px;
+	}
+
+	#top-nav-div {
+		width: 610px;
+	}
+
+	#top-nav-div, ul.topnav {
+		height: 25px;
+	}
+
+	ul.topnav li {
+		font-size: 8px;
+	}
+
+	ul.topnav li a {
+		padding: 8px 10px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#main-banner {
+		width: 98%;
+	}
+
+	#physics-logo {
+		padding-left: 0px;
+	}
+
+	#uta-compact-logo {
+		display: inline;
+		height: 32px;
+		width: 32px;
+		float: right;
+	}
+
+	#uta-logo {
+		display: none;
+	}
+
+	#top-nav-div {
+		width: 500px;
+	}
+
+    ul.topnav li {
+    	float: none;
+    }
+
+	#top-nav-div, ul.topnav {
+		height: 108px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#main-banner {
+		width: 370px;
+	}
+
+	#physics-logo {
+		padding-top: 6px;
+		height: 27px;
+	}
+
+	#top-nav-div {
+		width: 370px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	#main-banner {
+		width: 300px;
+	}
+
+	#top-nav-div {
+		width: 300px;
+	}
+}
+
+#slideshow-div {
+	width: 1000px;
+	height: 400px;
+	background-color: #000;
+	float: none;
+	margin: 0 auto;
+}
